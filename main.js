@@ -81,22 +81,22 @@ if (numCorrect/5 < 0.4) {
 	var end = new Date();
 	end = end - start;
 	
-console.log(user + ' you answered ' + numCorrect + ' questions correctly for a score of ' 
+	console.log(user + ' you answered ' + numCorrect + ' questions correctly for a score of ' 
 	+ Math.round((numCorrect/total) * 100) + '%.' + ' You took ' + (end * 0.001).toFixed(2) + ' seconds to complete the quiz.')
 	
-	if (htmlQ/totalH < 0.5) {
+	if (htmlQ/totalH < 0.7) {
 		console.log('You missed ' + (totalH - htmlQ) + ' out of ' + totalH + ' HTML Questions... You need to brush up' )
 	} else {
 		console.log('You did great in the HTML catogory questions!')
 	}
 
-	if (cssQ/totalC < 0.5) {
+	if (cssQ/totalC < 0.7) {
 		console.log('You missed ' + (totalC - cssQ) + ' out of ' + totalC + ' CSS Questions... You need to brush up' )
 	} else {
 		console.log('You did great in the CSS catogory questions!')
 	}
 
-	if (jsQ/totalJ < 0.5) {
+	if (jsQ/totalJ < 0.7) {
 		console.log('You missed ' + (totalJ - jsQ) + ' out of ' + totalJ + ' JavaScript Questions... You need to brush up' )
 	} else {
 		console.log('You did great in the JavaScript catogory questions!')
