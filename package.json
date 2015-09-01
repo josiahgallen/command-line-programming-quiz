@@ -1,0 +1,22 @@
+{
+  "name": "command-line-programming-quiz",
+  "version": "1.0.0",
+  "description": "console quiz using JS",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josiahgallen/command-line-programming-quiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josiahgallen/command-line-programming-quiz/issues"
+  },
+  "homepage": "https://github.com/josiahgallen/command-line-programming-quiz#readme",
+  "dependencies": {
+    "prompt-sync": "^3.0.0"
+  }
+}
